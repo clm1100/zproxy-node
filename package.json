@@ -1,0 +1,46 @@
+{
+  "name": "Allmobilize-ZProxy",
+  "description": "proxy",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "scripts": {
+    "start": "node proxy.js"
+  },
+  "dependencies": {
+    "async": "latest",
+    "cheerio": "^0.18.0",
+    "compress-buffer": "~1.2.1",
+    "connect": "~2.12.0",
+    "contextify": "~0.1.6",
+    "cookie": "~0.1.1",
+    "cron": "~1.0.1",
+    "handlebars": "~2.0.0-alpha.1",
+    "hiredis": "~0.1.17",
+    "jsdom": "~0.10.1",
+    "lodash": "latest",
+    "mime": "~1.2.11",
+    "mobile-detect": "~0.1.0",
+    "moment": "latest",
+    "newrelic": "~1.11.0",
+    "q": "latest",
+    "redis": "~0.10.3",
+    "request": "^2.31.0",
+    "urlrouter": "~0.5.4"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-node-inspector": "~0.1.2",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-nodemon": "0.0.8",
+    "grunt-concurrent": "~0.3.0",
+    "grunt-jsbeautifier": "~0.2.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.5",
+    "mocha": "~1.17.1"
+  }
+}
